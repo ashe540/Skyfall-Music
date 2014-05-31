@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>Background</class>
+ <widget class="QWidget" name="Background">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Album</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="playAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:images/play.png</normaloff>classpath:images/play.png</iconset>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </action>
+  <action name="pauseAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:images/pause.png</normaloff>classpath:images/pause.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </action>
+  <action name="stopAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>classpath:images/stop.png</normaloff>classpath:images/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
